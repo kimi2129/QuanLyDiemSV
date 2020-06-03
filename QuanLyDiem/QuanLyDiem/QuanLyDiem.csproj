@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{230E3331-5245-403F-BD84-240C3A47189D}</ProjectGuid>
+    <ProjectGuid>{5D290188-2A00-4BEB-BEB1-D9AA1EF231E0}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>QuanLyDiem</RootNamespace>
     <AssemblyName>QuanLyDiem</AssemblyName>
@@ -50,8 +50,35 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmDanToc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDanToc.Designer.cs">
+      <DependentUpon>FrmDanToc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDiem.Designer.cs">
+      <DependentUpon>FrmDiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHeDaoTao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHeDaoTao.Designer.cs">
+      <DependentUpon>FrmHeDaoTao.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmDanToc.resx">
+      <DependentUpon>FrmDanToc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDiem.resx">
+      <DependentUpon>FrmDiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHeDaoTao.resx">
+      <DependentUpon>FrmHeDaoTao.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
