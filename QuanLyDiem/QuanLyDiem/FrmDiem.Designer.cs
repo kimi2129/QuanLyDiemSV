@@ -58,6 +58,8 @@
             this.clmHocKy = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clmLanThi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clmDiem = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtDiem = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.GridViewDiem)).BeginInit();
@@ -361,6 +363,23 @@
             this.clmDiem.Name = "clmDiem";
             this.clmDiem.Width = 150;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(539, 305);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(64, 30);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "Điểm";
+            // 
+            // txtDiem
+            // 
+            this.txtDiem.Location = new System.Drawing.Point(637, 310);
+            this.txtDiem.Name = "txtDiem";
+            this.txtDiem.Size = new System.Drawing.Size(128, 26);
+            this.txtDiem.TabIndex = 17;
+            // 
             // FrmDiem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -374,9 +393,11 @@
             this.Controls.Add(this.btnSua);
             this.Controls.Add(this.btnThem);
             this.Controls.Add(this.cmbMaMon);
+            this.Controls.Add(this.txtDiem);
             this.Controls.Add(this.txtLanThi);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label3);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.txtMaLop);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
@@ -424,5 +445,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn clmHocKy;
         private System.Windows.Forms.DataGridViewTextBoxColumn clmLanThi;
         private System.Windows.Forms.DataGridViewTextBoxColumn clmDiem;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtDiem;
     }
 }
