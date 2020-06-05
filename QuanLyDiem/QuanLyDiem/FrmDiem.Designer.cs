@@ -45,9 +45,8 @@
             this.btnSua = new System.Windows.Forms.Button();
             this.btnThem = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.cmbMaMon = new System.Windows.Forms.ComboBox();
             this.txtLanThi = new System.Windows.Forms.TextBox();
@@ -64,9 +63,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnTimKiem = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.txtDiem = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.GridViewDiem)).BeginInit();
             this.groupBox3.SuspendLayout();
@@ -244,23 +244,6 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Tìm kiếm";
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(174, 46);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(166, 26);
-            this.textBox1.TabIndex = 15;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(29, 41);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(134, 30);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "Mã sinh viên";
-            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.button1);
@@ -277,6 +260,16 @@
             this.groupBox1.TabIndex = 16;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Lựa chọn";
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(143, 318);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(206, 59);
+            this.button1.TabIndex = 71;
+            this.button1.Text = "Danh sách sinh viên";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // comboBox1
             // 
@@ -447,6 +440,23 @@
             this.btnTimKiem.Text = "Tìm kiếm";
             this.btnTimKiem.UseVisualStyleBackColor = true;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(174, 46);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(166, 26);
+            this.textBox1.TabIndex = 15;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(29, 41);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(134, 30);
+            this.label5.TabIndex = 14;
+            this.label5.Text = "Mã sinh viên";
+            // 
             // txtDiem
             // 
             this.txtDiem.Location = new System.Drawing.Point(907, 529);
@@ -460,19 +470,9 @@
             this.label6.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(810, 522);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(64, 30);
+            this.label6.Size = new System.Drawing.Size(96, 30);
             this.label6.TabIndex = 69;
-            this.label6.Text = "Điểm";
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(143, 318);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(206, 59);
-            this.button1.TabIndex = 71;
-            this.button1.Text = "Danh sách sinh viên";
-            this.button1.UseVisualStyleBackColor = true;
+            this.label6.Text = "Điểm SV";
             // 
             // FrmDiem
             // 

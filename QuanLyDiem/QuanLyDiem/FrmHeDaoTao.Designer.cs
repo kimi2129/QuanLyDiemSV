@@ -43,6 +43,7 @@
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnSua = new System.Windows.Forms.Button();
             this.btnThem = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.GridViewHeDaoTao)).BeginInit();
             this.SuspendLayout();
             // 
@@ -198,11 +199,21 @@
             this.btnThem.UseVisualStyleBackColor = true;
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(699, 115);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(51, 20);
+            this.label4.TabIndex = 62;
+            this.label4.Text = "label4";
+            // 
             // FrmHeDaoTao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(802, 514);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnHuy);
             this.Controls.Add(this.btnLuu);
@@ -240,5 +251,6 @@
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.Button btnSua;
         private System.Windows.Forms.Button btnThem;
+        private System.Windows.Forms.Label label4;
     }
 }
