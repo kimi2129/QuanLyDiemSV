@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace QuanLyDiem
 {
-    public partial class FrmDiem : Form
+    public partial class FrmDiem: Form
     {
         public FrmDiem()
         {
